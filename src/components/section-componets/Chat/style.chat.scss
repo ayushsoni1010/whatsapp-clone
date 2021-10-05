@@ -1,0 +1,43 @@
+div.chat-container{
+    display: flex;
+    background-color: grey;
+    width: 30%;
+    height: 70px;
+    > div.chat-properties-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        cursor: pointer;
+        > img{
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+        }
+        > div.chat-body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            > div.chat-profile-details{
+                display: flex;
+                justify-content: space-between;
+                > p.chat-name{
+                    margin: 10px;
+                    font-size: 18px;
+                }
+                > p.chat-time{
+                    margin: 10px;
+                    margin-left: 16em;
+                    font-size: 14px;
+                }
+            }
+            > div.chat-last-message{
+                margin-left: 10px;
+                > p{
+                    position: relative;
+                    top: -8px;
+                }
+            }
+        }
+    }
+}

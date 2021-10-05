@@ -1,0 +1,64 @@
+header.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  height: 60px;
+  background: greenyellow;
+}
+
+header.header > div.header-profile {
+  margin: 10px;
+}
+
+header.header > div.header-profile > a {
+  text-decoration: none;
+}
+
+header.header > div.header-profile > a > img {
+  width: 40px;
+}
+
+header.header > div.header-options-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.5em;
+  margin-right: 1.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.header > div.header-options-wrapper > a {
+  font-size: 30px;
+}
+
+header.header > div.header-options-wrapper > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+header.header > div.header-options-wrapper > button:hover {
+  background-color: grey;
+}
+/*# sourceMappingURL=style.header.css.map */

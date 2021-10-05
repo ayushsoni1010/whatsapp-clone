@@ -1,0 +1,37 @@
+div.search-input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    width: 30%;
+    height: 45px;
+    > label.search-input{
+        display: flex;
+        gap: 30px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 15px;
+        width: 95%;
+        padding-left: 20px;
+        > button{
+            background: none;
+            border: none;
+            cursor: pointer;
+            > i{
+                transform: rotate(270deg);
+                font-size: 15px;
+                color: #646464;
+            }
+        }
+        > input.input-element{
+            background: white;
+            padding: 0.3em;
+            border: none;
+            border-radius: 15px;
+            &:focus{
+                outline: none;
+                background-color: none;
+            }
+        }
+    }
+}

@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=index.css.map */
