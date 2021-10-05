@@ -1,0 +1,27 @@
+body{
+    background: fixed;
+    background-color: white;
+    background-size: cover;
+}
+
+.center_view{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1536px;
+}
+
+.portrait_view{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landscape_view{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

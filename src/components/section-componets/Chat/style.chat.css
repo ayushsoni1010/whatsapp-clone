@@ -1,0 +1,71 @@
+div.chat-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: grey;
+  width: 30%;
+  height: 70px;
+}
+
+div.chat-container > div.chat-properties-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+div.chat-container > div.chat-properties-wrapper > img {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details > p.chat-name {
+  margin: 10px;
+  font-size: 18px;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details > p.chat-time {
+  margin: 10px;
+  margin-left: 16em;
+  font-size: 14px;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message {
+  margin-left: 10px;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message > p {
+  position: relative;
+  top: -8px;
+}
+/*# sourceMappingURL=style.chat.css.map */

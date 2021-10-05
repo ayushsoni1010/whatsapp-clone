@@ -1,0 +1,40 @@
+header.header{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60px;
+    background: greenyellow;
+    > div.header-profile{
+        margin: 10px;
+        > a{
+            text-decoration: none;
+            > img{
+                width: 40px;
+            }
+        }        
+    }
+    > div.header-options-wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5em;
+        margin-right: 1.5em;
+        align-items: center;
+        > a{
+            font-size: 30px;
+        }
+        > button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 100%;
+            padding: 5px;
+            &:hover{
+                background-color: grey;
+            }
+        }
+    }
+}
