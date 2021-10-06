@@ -16,6 +16,9 @@ export default function Chat() {
             </div>
             <div className="chat-last-message">
               <p>{data.message}</p>
+              <button className="btn-options">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/expand-arrow.png" alt="arrow-icon"/>
+              </button>
             </div>
           </div>
         </div>

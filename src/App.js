@@ -8,7 +8,7 @@ import LandingPage from "./views/LandingPage";
 function App() {
   return (
     <div className="center_view portrait_view">
-      <Header />
+      <Header/>
       <SearchInput />
       <LandingPage/>
     </div>

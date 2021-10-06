@@ -3,7 +3,11 @@ header.header{
     justify-content: space-between;
     width: 30%;
     height: 60px;
-    background: greenyellow;
+    background: rgb(230,230,230);
+    border-right: 1.5px solid rgb(220, 220, 220);
+    position: fixed;
+    top: 0;
+    z-index: 10;
     > div.header-profile{
         margin: 10px;
         > a{
@@ -21,6 +25,9 @@ header.header{
         align-items: center;
         > a{
             font-size: 30px;
+            > i{
+                color: rgb(90, 90, 90);
+            }
         }
         > button{
             display: flex;
@@ -32,8 +39,11 @@ header.header{
             cursor: pointer;
             border-radius: 100%;
             padding: 5px;
-            &:hover{
-                background-color: grey;
+            > i{
+                color: rgb(90, 90, 90);
+            }
+            &:focus{
+                background-color: rgb(205,205,205);
             }
         }
     }

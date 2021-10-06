@@ -2,9 +2,13 @@ div.chat-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: grey;
+  background-color: white;
   width: 30%;
   height: 70px;
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1.5px solid gainsboro;
+  position: relative;
+  top: 6.57em;
 }
 
 div.chat-container > div.chat-properties-wrapper {
@@ -35,37 +39,61 @@ div.chat-container > div.chat-properties-wrapper > div.chat-body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details > p.chat-name {
-  margin: 10px;
-  font-size: 18px;
+  margin-left: 15px;
+  font-size: 17px;
 }
 
 div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details > p.chat-time {
-  margin: 10px;
-  margin-left: 16em;
-  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 17em;
+  margin-right: auto;
+  font-size: 13px;
+  color: #969696;
 }
 
 div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message {
-  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
 }
 
 div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message > p {
-  position: relative;
-  top: -8px;
+  margin-top: 3px;
+  margin-right: auto;
+  font-size: 13px;
+  color: #969696;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message > button.btn-options {
+  background: none;
+  border: none;
+  margin-top: 3px;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message > button.btn-options > img {
+  width: 17px;
+  cursor: pointer;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message > button.btn-options > img::before {
+  width: 17px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last-message > button.btn-options > img::after {
+  width: 17px;
+  visibility: visible;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.chat.css.map */

@@ -1,8 +1,12 @@
 div.chat-container{
     display: flex;
-    background-color: grey;
+    background-color: white;
     width: 30%;
     height: 70px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-right: 1.5px solid rgb(220, 220, 220);
+    position: relative;
+    top: 6.57em;
     > div.chat-properties-wrapper{
         display: flex;
         justify-content: space-between;
@@ -17,25 +21,47 @@ div.chat-container{
         > div.chat-body{
             display: flex;
             flex-direction: column;
-            justify-content: center;
             > div.chat-profile-details{
                 display: flex;
-                justify-content: space-between;
                 > p.chat-name{
-                    margin: 10px;
-                    font-size: 18px;
+                    margin-left: 15px;
+                    font-size: 17px;
                 }
                 > p.chat-time{
-                    margin: 10px;
-                    margin-left: 16em;
-                    font-size: 14px;
+                    margin-top: 3px;
+                    margin-left: 17em;
+                    margin-right: auto;
+                    font-size: 13px;
+                    color: rgb(150, 150, 150);
                 }
             }
             > div.chat-last-message{
-                margin-left: 10px;
+                display:flex;
+                margin-left: 15px;
                 > p{
-                    position: relative;
-                    top: -8px;
+                    margin-top: 3px;
+                    margin-right: auto;
+                    font-size: 13px;
+                    color: rgb(150, 150, 150);
+                }
+                > button.btn-options{
+                    background: none;
+                    border: none;
+                    margin-top: 3px;
+                    > img{
+                        width: 17px;
+                        cursor: pointer;
+                        &::before{
+                            width: 17px;
+                            visibility: hidden;
+                            cursor: pointer;
+                        }
+                        &::after{
+                            width: 17px;
+                            visibility: visible;
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }

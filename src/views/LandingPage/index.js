@@ -4,7 +4,7 @@ import Chat from '../../components/section-componets/Chat'
 
 export default function LandingPage() {
     return (
-        <div>
+        <div className="landing-page">
             <Chat/>
             <Chat/>
             <Chat/>

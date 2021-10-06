@@ -7,7 +7,11 @@ header.header {
           justify-content: space-between;
   width: 30%;
   height: 60px;
-  background: greenyellow;
+  background: #e6e6e6;
+  border-right: 1.5px solid gainsboro;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 header.header > div.header-profile {
@@ -40,6 +44,10 @@ header.header > div.header-options-wrapper > a {
   font-size: 30px;
 }
 
+header.header > div.header-options-wrapper > a > i {
+  color: #5a5a5a;
+}
+
 header.header > div.header-options-wrapper > button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,7 +66,11 @@ header.header > div.header-options-wrapper > button {
   padding: 5px;
 }
 
-header.header > div.header-options-wrapper > button:hover {
-  background-color: grey;
+header.header > div.header-options-wrapper > button > i {
+  color: #5a5a5a;
+}
+
+header.header > div.header-options-wrapper > button:focus {
+  background-color: #cdcdcd;
 }
 /*# sourceMappingURL=style.header.css.map */

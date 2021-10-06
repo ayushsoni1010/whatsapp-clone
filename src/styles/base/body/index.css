@@ -1,7 +1,8 @@
 body {
   background: fixed;
-  background-color: white;
+  background-color: red;
   background-size: cover;
+  font-family: 'Inter',sans-serif;
 }
 
 .center_view {

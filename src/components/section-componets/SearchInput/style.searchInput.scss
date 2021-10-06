@@ -2,9 +2,14 @@ div.search-input-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
+    background-color: rgb(245,245,245);
     width: 30%;
     height: 45px;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    border-right: 1.5px solid rgb(220, 220, 220);
+    position: fixed;
+    top: 60px;
+    z-index: 10;
     > label.search-input{
         display: flex;
         gap: 30px;
@@ -20,7 +25,8 @@ div.search-input-wrapper{
             > i{
                 transform: rotate(270deg);
                 font-size: 15px;
-                color: #646464;
+                color: rgb(58, 58, 58);
+                font-weight: bold;
             }
         }
         > input.input-element{
