@@ -1,0 +1,72 @@
+footer.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  width: 70%;
+  height: 60px;
+  background: #e6e6e6;
+  border-top: 1.5px solid gainsboro;
+  border-left: 1.5px solid gainsboro;
+  position: fixed;
+  top: 41.285em;
+  z-index: 10;
+}
+
+footer.footer > a {
+  text-decoration: none;
+}
+
+footer.footer > a > button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+footer.footer > a > button > i {
+  font-size: 30px;
+  color: #5a5a5a;
+}
+
+footer.footer > a > button:focus {
+  background-color: #cdcdcd;
+}
+
+footer.footer > button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+footer.footer > button > i {
+  font-size: 30px;
+  color: #5a5a5a;
+}
+
+footer.footer > button:focus {
+  background-color: #cdcdcd;
+}
+
+footer.footer > input {
+  width: 85%;
+  height: 43px;
+  background: white;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+footer.footer > input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.conversationFooter.css.map */
