@@ -1,16 +1,16 @@
 import React from "react";
+// import ConversationHeader from "./components/section-componets/ConversationHeader";
 import "./styles/index.css";
-import Header from "./components/section-componets/Header";
-import SearchInput from "./components/section-componets/SearchInput";
-import LandingPage from "./views/LandingPage";
+import ChatConversationUI from "./views/ChatConversationUI";
+import SideBar from "./views/SideBar";
 // import Chat from "./components/section-componets/Chat";
 
 function App() {
   return (
-    <div className="center_view portrait_view">
-      <Header/>
-      <SearchInput />
-      <LandingPage/>
+    <div className="center_view landscape_view">
+      <SideBar/>
+      {/* <ConversationHeader profile="https://avatars.githubusercontent.com/u/76895975" name="Ayush Soni"/> */}
+      <ChatConversationUI/>
     </div>
   );
 }

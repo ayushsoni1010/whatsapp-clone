@@ -96,4 +96,8 @@ div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-last
   visibility: visible;
   cursor: pointer;
 }
+
+div.chat-container:hover {
+  background-color: whitesmoke;
+}
 /*# sourceMappingURL=style.chat.css.map */
