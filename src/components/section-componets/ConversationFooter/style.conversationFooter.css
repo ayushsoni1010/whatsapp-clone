@@ -15,7 +15,7 @@ footer.footer {
   border-top: 1.5px solid gainsboro;
   border-left: 1.5px solid gainsboro;
   position: fixed;
-  top: 91.55%;
+  bottom: 0;
   z-index: 10;
 }
 

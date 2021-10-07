@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,wBAAwB,CAAA;EACvB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,+BAA+B;EACjD,iBAAiB,EAAE,MAAM;EACzB,eAAe,EAAE,KAAK;EACtB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,OAAO;CACf",
+    "sources": [
+        "style.chatMessageUI.scss"
+    ],
+    "names": [],
+    "file": "style.chatMessageUI.css"
+}
