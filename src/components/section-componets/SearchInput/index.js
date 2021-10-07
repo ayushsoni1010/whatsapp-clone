@@ -6,7 +6,7 @@ export default function SearchInput() {
     <div className="search-input-wrapper">
       <label htmlFor="search" className="search-input">
         <button>
-          <i class="fas fa-search"></i>
+          <i className="fas fa-search"></i>
         </button>
         <input
           type="text"

@@ -13,12 +13,12 @@ export default function ConversationHeader(__chatConversationProperties) {
       <div className="header-section-options-wrapper">
         <a href="/">
           <button>
-            <i class="fas fa-video"></i>
+            <i className="fas fa-video"></i>
           </button>
         </a>
         <a href="/">
           <button>
-            <i class="fas fa-phone-alt call-icon"></i>
+            <i className="fas fa-phone-alt call-icon"></i>
           </button>
         </a>
         <button>

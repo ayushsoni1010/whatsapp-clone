@@ -12,13 +12,13 @@ export default function Header() {
       </div>
       <div className="header-options-wrapper">
         <a href="/">
-          <i class="fas fa-spinner"></i>
+          <i className="fas fa-spinner"></i>
         </a>
         <a href="/">
-          <i class="fas fa-plus"></i>
+          <i className="fas fa-plus"></i>
         </a>
         <button>
-          <i class="fas fa-ellipsis-h"></i>
+          <i className="fas fa-ellipsis-h"></i>
         </button>
       </div>
     </header>

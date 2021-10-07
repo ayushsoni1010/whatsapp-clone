@@ -5,7 +5,7 @@ import "./style.views.chatConversationUI.css";
 
 export default function ChatConversationUI() {
     return (
-      <div className="portrait_view" style={{ "margin-left": "30%" }}>
+      <div className="portrait_view" style={{ "marginLeft": "30%" }}>
         <ConversationHeader
           profile="https://avatars.githubusercontent.com/u/76895975"
           name="Ayush Soni"
