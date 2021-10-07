@@ -1,4 +1,23 @@
-div.chat-conversation-messages-wrapper{
+div.chat-conversation-left-message-wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    padding: 50px;
+    margin-top: 5%;
+    > p{
+        background-color: greenyellow;
+    }
+}
+div.chat-conversation-right-message-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    margin-left: 5%;
+
+    > p{
+        background-color: greenyellow;
+        font-size: 30px;
+    }
 }
