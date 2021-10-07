@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,mCAAmC,CAAA;EAClC,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACzB",
+    "sources": [
+        "style.conversationMessages.scss"
+    ],
+    "names": [],
+    "file": "style.conversationMessages.css"
+}
