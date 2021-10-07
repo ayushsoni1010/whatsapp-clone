@@ -14,7 +14,7 @@ export default function ConversationFooter() {
       </button>
       <input type="text" name="name" placeholder="Type a message" />
       <button>
-        <i class="fas fa-microphone"></i>
+        <i className="fas fa-microphone"></i>
       </button>
     </footer>
   );
