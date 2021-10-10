@@ -48,6 +48,9 @@ div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-prof
 }
 
 div.chat-container > div.chat-properties-wrapper > div.chat-body > div.chat-profile-details > p.chat-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 15px;
   font-size: 17px;
 }

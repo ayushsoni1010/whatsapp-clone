@@ -6,17 +6,17 @@ export default function ChatMessageUI() {
   return (
     <div className="chat-message-ui-wrapper">
       <ConversationMessages
-        message1="Hey Ayush"
-        message2="Hello Ayush"
-        message3="Hyyy Ayush"
-        message4="Hiii Ayush"
+        message1="Hey Ayush, What's up?"
+        message2="Hey Ayush, What's up?"
+        message3="Hey Ayush, What's up?"
+        message4="Hey Ayush, What's up?"
       />
       <ConversationMessages
-        sender="right"
-        message1="Hey Ayush"
-        message2="Hello Ayush"
-        message3="Hyyy Ayush"
-        message4="Hiii Ayush"
+        sender="Hey Ayush, What's up?"
+        message1="Hey Ayush, What's up?"
+        message2="Hey Ayush, What's up?"
+        message3="Hey Ayush, What's up?"
+        message4="Hey Ayush, What's up?"
       />
     </div>
   );
