@@ -30,6 +30,11 @@ export default function SideBar() {
       <Chat />
       <Chat />
       <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
     </div>
   );
 }

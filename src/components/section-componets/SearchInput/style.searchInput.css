@@ -24,7 +24,7 @@ div.search-input-wrapper > label.search-input {
   display: flex;
   gap: 30px;
   background-color: white;
-  padding: 5px;
+  padding: 6px;
   border-radius: 15px;
   width: 95%;
   padding-left: 20px;
@@ -47,13 +47,14 @@ div.search-input-wrapper > label.search-input > button > i {
 
 div.search-input-wrapper > label.search-input > input.input-element {
   background: white;
-  padding: 0.3em;
+  width: 100%;
   border: none;
   border-radius: 15px;
 }
 
 div.search-input-wrapper > label.search-input > input.input-element:focus {
   outline: none;
+  padding-left: 10px;
   background-color: none;
 }
 /*# sourceMappingURL=style.searchInput.css.map */
